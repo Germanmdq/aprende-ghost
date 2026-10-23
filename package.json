@@ -1,5 +1,5 @@
 {
-    "name": "bright",
+    "name": "bright-castellano",
     "description": "A premium Ghost theme by Spiritix",
     "demo": "https://bright.spiritix.co",
     "version": "2.0.0",
@@ -12,12 +12,7 @@
         "email": "support@spiritix.co",
         "url": "https://spiritix.co"
     },
-    "keywords": [
-        "ghost",
-        "theme",
-        "ghost-theme",
-        "spiritix"
-    ],
+    "keywords": ["ghost", "theme", "ghost-theme", "spiritix"],
     "scripts": {
         "dev": "gulp",
         "build": "gulp build",
@@ -67,138 +62,32 @@
         "tailwindcss": "4.0.17",
         "vitest": "3.2.4"
     },
-    "browserslist": [
-        "defaults"
-    ],
+    "browserslist": ["defaults"],
     "config": {
         "posts_per_page": 30,
         "image_sizes": {
-            "xxs": {
-                "width": 30
-            },
-            "xs": {
-                "width": 100
-            },
-            "s": {
-                "width": 400
-            },
-            "m": {
-                "width": 800
-            },
-            "l": {
-                "width": 1200
-            },
-            "xl": {
-                "width": 1600
-            },
-            "2xl": {
-                "width": 2400
-            }
+            "xxs": {"width": 30},
+            "xs": {"width": 100},
+            "s": {"width": 400},
+            "m": {"width": 800},
+            "l": {"width": 1200},
+            "xl": {"width": 1600},
+            "2xl": {"width": 2400}
         },
         "card_assets": true,
         "custom": {
-            "dark_theme_logo": {
-                "type": "image",
-                "description": "This logo will only be displayed on dark mode. Make sure it's the same size as the light mode one."
-            },
-            "dark_theme_accent_color": {
-                "type": "color",
-                "default": "#000000",
-                "description": "This accent color will only be used on dark mode. Leave #000000 to disable."
-            },
-            "default_color_scheme": {
-                "type": "select",
-                "options": [
-                    "Dark",
-                    "Light",
-                    "System"
-                ],
-                "default": "Dark",
-                "description": "Choose your website's default color scheme."
-            },
-            "grayscale": {
-                "type": "select",
-                "options": [
-                    "Slate",
-                    "Gray",
-                    "Zinc",
-                    "Stone",
-                    "Neutral"
-                ],
-                "default": "Gray",
-                "description": "Choose different shades of gray used in text, borders, shadows ..."
-            },
-            "tone": {
-                "type": "select",
-                "options": [
-                    "Accent",
-                    "Neutral"
-                ],
-                "default": "Neutral",
-                "description": "Change the general tone of your website"
-            },
-            "body_font": {
-                "type": "select",
-                "options": [
-                    "System sans-serif",
-                    "Inter",
-                    "Roboto",
-                    "Raleway",
-                    "Montserrat",
-                    "Nunito Sans",
-                    "Work Sans",
-                    "Source Sans",
-                    "System serif",
-                    "Roboto Serif",
-                    "Source Serif"
-                ],
-                "default": "System sans-serif",
-                "description": "Choose a different text font. Fonts are loaded from Google fonts except for system fonts."
-            },
-            "headings_font": {
-                "type": "select",
-                "options": [
-                    "System sans-serif",
-                    "Inter",
-                    "Roboto",
-                    "Raleway",
-                    "Montserrat",
-                    "Nunito Sans",
-                    "Work Sans",
-                    "Source Sans",
-                    "System serif",
-                    "Roboto Serif",
-                    "Source Serif",
-                    "Playfair Display"
-                ],
-                "default": "System sans-serif",
-                "description": "Choose a different headings font. Fonts are loaded from Google fonts except for system fonts."
-            },
-            "footer_description": {
-                "type": "text",
-                "default": "",
-                "description": "Custom description displayed on the site footer. Defaults to the global site description."
-            },
-            "footer_signup_title": {
-                "type": "text",
-                "default": "Suscribite a nuestro boletín",
-                "description": "Change the signup title text that's displayed on the site footer."
-            },
-            "footer_signup_description": {
-                "type": "text",
-                "default": "Recibí las últimas publicaciones y novedades en tu correo. <br> Sin spam. Podés darte de baja cuando quieras.",
-                "description": "Change the signup description text displayed on the site footer (add <br> to force a new line)."
-            },
-            "footer_copyright": {
-                "type": "text",
-                "default": "",
-                "description": "Change the copyright text that's displayed on the site footer."
-            }
+            "dark_theme_logo": {"type": "image", "description": "This logo will only be displayed on dark mode. Make sure it's the same size as the light mode one."},
+            "dark_theme_accent_color": {"type": "color", "default": "#000000", "description": "This accent color will only be used on dark mode. Leave #000000 to disable."},
+            "default_color_scheme": {"type": "select", "options": ["Dark", "Light", "System"], "default": "Dark", "description": "Choose your website's default color scheme."},
+            "grayscale": {"type": "select", "options": ["Slate", "Gray", "Zinc", "Stone", "Neutral"], "default": "Gray", "description": "Choose different shades of gray used in text, borders, shadows ..."},
+            "tone": {"type": "select", "options": ["Accent", "Neutral"], "default": "Neutral", "description": "Change the general tone of your website"},
+            "body_font": {"type": "select", "options": ["System sans-serif", "Inter", "Roboto", "Raleway", "Montserrat", "Nunito Sans", "Work Sans", "Source Sans", "System serif", "Roboto Serif", "Source Serif"], "default": "System sans-serif", "description": "Choose a different text font. Fonts are loaded from Google fonts except for system fonts."},
+            "headings_font": {"type": "select", "options": ["System sans-serif", "Inter", "Roboto", "Raleway", "Montserrat", "Nunito Sans", "Work Sans", "Source Sans", "System serif", "Roboto Serif", "Source Serif", "Playfair Display"], "default": "System sans-serif", "description": "Choose a different headings font. Fonts are loaded from Google fonts except for system fonts."},
+            "footer_description": {"type": "text", "default": "", "description": "Custom description displayed on the site footer. Defaults to the global site description."},
+            "footer_signup_title": {"type": "text", "default": "Suscribite a nuestro boletín", "description": "Change the signup title text that's displayed on the site footer."},
+            "footer_signup_description": {"type": "text", "default": "Recibí las últimas publicaciones y novedades en tu correo. <br> Sin spam. Podés darte de baja cuando quieras.", "description": "Change the signup description text displayed on the site footer (add <br> to force a new line)."},
+            "footer_copyright": {"type": "text", "default": "", "description": "Change the copyright text that's displayed on the site footer."}
         }
     },
-    "renovate": {
-        "extends": [
-            "@tryghost:theme"
-        ]
-    }
+    "renovate": {"extends": ["@tryghost:theme"]}
 }
